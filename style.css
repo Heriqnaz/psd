@@ -1,8 +1,7 @@
 body {
     cursor: pointer;
 }
-.navigation {
-    
+.navigation {    
     position: fixed;
 }
 .navigation-container {
@@ -72,28 +71,137 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #660000;
+    
     
 }
 
 .news1, .news2, .news3, .news4 {
     width: 225px;
     height: 305px;
-    background-color: green;
+    background-color: #fff;
     
 }
+
+.news1:hover, .news2:hover, .news3:hover, .news4:hover {
+    background-color: #75c38f;
+}
+
 .news1 {
     margin-left: 120px;
 }
+
 .news4 {
     margin-right: 120px;
 }
+
 .home {
+    width: 1200px;
+    height: 1578px;
+    background-color: #660000;
     display: none;
 }
+
 .style {
     display: none;
 }
 
+.footer {
+    background-color: black;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 
+.img {
+    width: 290px;
+    height: 190px;
+    background-color: #353535;
+    margin: 10px 10px 10px 10px;
+    border: solid 10px #ffffff;
+  
+
+}
+
+.img:hover {
+    border: solid 10px #76c38f;
+}
+
+.Blog {
+    margin-left: 120px;
+}
+
+.blog-test {
+    width: 224px;
+    height: 60px;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(151,151,151);
+    font-family: "Georgia";
+    overflow: hidden;
+}
+
+.h1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+}
+
+.h2 {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(118,195,143);
+    font-family: "Georgia";
+}
+
+.h3 {
+    font-size: 10px;
+    line-height: 12px;
+    color: rgb(118,195,142);
+    font-family: "Georgia";
+}
+
+.day {
+    font-size: 10px;
+    line-height: 12px;
+    color: rgb(151,151,151);
+    font-family: "Georgia";
+}
+
+.more {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(118,195,143);
+    font-family: "Georgia";
+}
+
+.link-h1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+}
+ul {
+    list-style: none;
+    
+}
+
+li {
+    font-size: 13px;
+    line-height: 34px;
+    color: rgb(118,195,143);
+    font-family: "Georgia";
+}
+
+hr {
+  background-color: #404040;
+}
   

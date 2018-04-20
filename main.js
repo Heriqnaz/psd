@@ -75,3 +75,10 @@ const home = document.getElementsByClassName('navigation-item')[0];
 home.addEventListener('click', function() {    
       x.style.display = 'block';  
 })
+
+const blog = document.getElementsByClassName("blog-test")[0]
+const more = document.getElementsByClassName("more")[0];
+more.addEventListener('click', function() {
+  blog.style.height= 'auto';
+  this.style.display= 'none';
+});
