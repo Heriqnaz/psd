@@ -7,9 +7,7 @@ body {
 .navigation-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;       
-    margin: 0;
-    background-color: rgb(0, 128, 32);
+    align-items: center;
     height: 100%;
     width: 1200px; 
 }
@@ -29,12 +27,14 @@ body {
     justify-content: space-between;
     text-align: center;
     margin: 0 40px 0 0;
+    color: #fff;
 }
 
 .navigation-list {
     list-style: none;
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    text-align:  center; 
 }
 
 .active {
@@ -42,7 +42,14 @@ body {
     height: 35px;
     border-radius: 11px;
     background-color: #76c38f; 
-    margin: 0;   
+    text-align:  center;
+    
+}
+
+.bord {
+    width: 1200px;
+    height: 5px;
+    background-color: #76c38f;
 }
 
 .slider {
@@ -98,7 +105,7 @@ img {
     width: 1200px;
     height: 1578px;
     background-color: #660000;
-    display: none;
+    /* display: none; */
 }
 
 .style {
@@ -106,11 +113,13 @@ img {
 }
 
 .footer {
-    background-color: black;
     width: 1200px;
-    height: 600px;
+    height: 387px;
+    background-color: #303030;
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: nowrap;
     
 }
 .imges {
@@ -189,12 +198,13 @@ img {
     color: rgb(255,255,255);
     font-family: "Georgia";
 }
-ul {
-    list-style: none;
-    
+
+.link-div {
+    display: flex;
+    flex-direction: column;
 }
 
-li {
+.link-p {
     font-size: 13px;
     line-height: 34px;
     color: rgb(118,195,143);
@@ -202,6 +212,114 @@ li {
 }
 
 hr {
-  background-color: #404040;
+    height: 1px;
+    color: #404040;
+    background-color: #404040;
+    border: none; 
 }
-  
+
+.tweets-a {
+    width: 224px;
+    height: 224px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(152,152,152);
+    font-family: "Georgia";
+}
+
+.tweets-h1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+}
+
+.tweets-p { 
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(118,195,142);
+    font-family: "Georgia";
+}
+
+.contact-h1 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+}
+
+.Contact {
+    margin-right: 120px;    
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: initial;
+}
+
+.contact-name {
+    margin: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(152,152,152);
+    font-family: "Georgia";
+    width: 225px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #222222;
+    border: none;    
+}
+
+.contact-mail {
+    margin: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(152,152,152);
+    font-family: "Georgia";
+    width: 225px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #222222;
+    border: none;
+}
+
+.contact-subject {
+    margin: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(152,152,152);
+    font-family: "Georgia";
+    width: 225px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #222222;
+    border: none;
+}
+
+.contact-message {
+    margin: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(152,152,152);
+    font-family: "Georgia";
+    width: 225px;
+    height: 80px;
+    border-radius: 11px;
+    background-color: #222222;
+    border: none;
+}
+
+.submit {
+    margin: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(48,48,48);
+    font-family: "Georgia";
+    width: 75px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #76c38f;
+    border: none;
+}
