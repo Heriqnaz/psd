@@ -35,10 +35,8 @@ var arr =
   
 const item = document.getElementsByClassName("navigation-item");
     for(let i = 0; i<arr.length; i++) {
-    const li = document.createElement("li");
-    list.appendChild(li);    
-    const a = document.createElement("A");
-    li.appendChild(a);
+    const a = document.createElement("div");
+    list.appendChild(a);
     a.setAttribute('href', arr[i].link);
     a.innerHTML = arr[i].name;
     a.setAttribute('class', "navigation-item"+" " + arr[i].isActive);
@@ -52,23 +50,23 @@ const item = document.getElementsByClassName("navigation-item");
 
 const x = document.getElementsByClassName('home')[0];
 
-// var slideIndex = 1;
-// showDivs(slideIndex);
+var slideIndex = 1;
+showDivs(slideIndex);
 
-// function plusDivs(n) {
-//   showDivs(slideIndex += n);
-// }
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-// function showDivs(n) {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides");
-//   if (n > x.length) {slideIndex = 1}    
-//   if (n < 1) {slideIndex = x.length}
-//   for (i = 0; i < x.length; i++) {
-//      x[i].style.display = "none";  
-//   }
-//   x[slideIndex-1].style.display = "block";  
-// }
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
 
 
 const home = document.getElementsByClassName('navigation-item')[0];
